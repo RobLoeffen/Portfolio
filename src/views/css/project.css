@@ -1,0 +1,44 @@
+.project {
+    display: grid;
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu', 'sans-serif';
+}
+
+.project .project-content img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.project-description .project-description-content{
+    justify-content: center;
+}
+
+.project-description .project-description-content .text{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline cyan;
+}
+
+.project-description .project-description-content p{
+    text-align: justify;
+    word-break: break-word;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .project .project-content img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+
+
+
